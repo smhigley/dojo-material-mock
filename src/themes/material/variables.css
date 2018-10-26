@@ -1,0 +1,57 @@
+:root {
+	/* Spacing */
+	--grid-base: 8px;
+	--spacing-regular: var(--grid-base);
+	--spacing-large: calc(var(--grid-base) * 2);
+	--touch-target-min: 48px;
+
+	/* Fonts */
+	--font-size-base: 16px;
+	--font-size-small: 14px;
+	--font-size-title: 20px;
+	--font-size-icon: 24px;
+	--line-height-base: 24px;
+
+	/* Color hex values */
+	--white: #ffffff;
+	--light-grey: #f4f6f7;
+	--grey: #d6dde2;
+	--dark-grey: #5c6c7c;
+	--black: #000000;
+	--blue: #006be6;
+	--red: #eb1313;
+	--green: #188701;
+
+	/* Color usage names */
+	--color-text-primary: var(--black);
+	--color-text-faded: var(--dark-grey);
+	--color-text-inverted: var(--white);
+	--color-highlight: var(--blue);
+	--color-success: var(--green);
+	--color-error: var(--red);
+	--color-background: var(--white);
+	--color-background-inverted: var(--dark-grey);
+	--color-background-faded: var(--light-grey);
+	--color-border: var(--grey);
+	--color-border-strong: var(--dark-grey);
+	--color-box-shadow: color(var(--black) alpha(20%));
+	--color-box-shadow-strong: color(var(--black) alpha(50%));
+
+	/* Border and shadow */
+	--box-shadow-dimensions-small: 0 2px 2px 0;
+	--box-shadow-dimensions-large: 0 9px 16px 0;
+	--border-width: 1px;
+	--border-width-emphasized: 2px;
+
+	/* Transitions */
+	--transition-duration: 0.25s;
+	--transition-easing: ease;
+
+	/* Z-index levels */
+	--zindex-base: 0;
+	--zindex-tooltip: 100;
+	--zindex-dropdown: 200;
+	--zindex-fixed: 300;
+	--zindex-dialog: 400;
+	--zindex-alert: 500;
+}

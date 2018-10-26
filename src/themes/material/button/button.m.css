@@ -1,0 +1,42 @@
+
+.root {
+	background-color: #3f51b5;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	overflow: hidden;
+	padding: 8px 16px;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.pressed {}
+
+.popup {}
+
+.addon {}
+
+.disabled {}
+
+.ripple {
+	background-color: #fff;
+	border-radius: 50%;
+	height: 50px;
+	left: 50%;
+	opacity: 0;
+	padding-bottom: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.flat {
+	background-color: transparent;
+	color: #222;
+}
+
+.flat .ripple {
+	background-color: #ccc;
+}
